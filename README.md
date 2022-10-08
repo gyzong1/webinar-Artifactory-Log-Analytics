@@ -7,6 +7,7 @@
 ## 安装 Artifactory  
 * 访问 Artifactory 下载地址 https://jfrog.com/download-legacy/?product=artifactory&installer=linux， 下载Artifactory  
 <img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png">  
+
 * 解压并启动  
 
 
