@@ -1,5 +1,5 @@
 # 描述
-配置 Artifactory + Fluentd + Prometheus + Grafana 实现日志分析
+* 配置 Artifactory + Fluentd + Prometheus + Grafana 实现日志分析
 # 内容
 * 安装各组件  
 * 日志分析展示
