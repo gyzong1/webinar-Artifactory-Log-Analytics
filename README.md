@@ -6,7 +6,7 @@
 # 步骤
 ## 安装 Artifactory  
 * 访问 Artifactory 下载地址 https://jfrog.com/download-legacy/?product=artifactory&installer=linux， 下载Artifactory  
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png">  
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Artifactory_Download.png">  
 
 * 解压并启动  
 ```bash  
@@ -42,7 +42,7 @@ Group=root
 Environment=JF_PRODUCT_DATA_INTERNAL=/root/webinar/artifactory-pro-7.41.12/var
 ```  
 访问：http://ip:24231/metrics, 查看日志metrics信息
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Artifactory_Log_Metrics.png"> 
 
 
 ## 安装 Prometheus
@@ -69,7 +69,7 @@ WantedBy=multi-user.target
 systemctl start prometheus-server
 ```
 访问：http://ip:9090, 确认 Fluentd 连接正常
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Prometheus_Status.png"> 
 
 ## 安装 Grafana
 ```bash
@@ -82,12 +82,12 @@ systemctl start grafana
 
 ## 选择数据源
 * "Settings"-->"Data sources"-->"Add data source"-->"Prometheus"，填写URL信息
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Grafana_Data_Sources1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Grafana_Data_Sources2.png"> 
 
 ## 导入 Dashboard
 * dashboard文件路径：log-analytics-prometheus/grafana/Artifactory-dashboard.json
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/Uwebinar-Artifactory-Log-Analytics/blob/main/images/Grafana_Dashboard.png"> 
 
 ## 查看数据
-<img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Maven-1.png"> 
