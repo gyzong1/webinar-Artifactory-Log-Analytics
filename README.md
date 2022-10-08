@@ -4,10 +4,10 @@
 * 安装各组件  
 * 日志分析展示
 # 步骤
-## 安装 Artifactory
+## 安装 Artifactory  
 * 访问 Artifactory 下载地址 https://jfrog.com/download-legacy/?product=artifactory&installer=linux， 下载Artifactory  
 <img width="1751" alt="image" src="https://github.com/gyzong1/Usage-of-Artifactory/blob/main/images/Maven-1.png">  
-* 解压并启动 
+* 解压并启动   
 ```bash
 tar zxf jfrog-artifactory-pro-7.41.12-linux.tar.gz
 cd artifactory-pro-7.41.12/app/bin/
