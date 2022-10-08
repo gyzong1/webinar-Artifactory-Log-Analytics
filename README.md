@@ -87,7 +87,7 @@ systemctl start grafana
 
 ## 导入 Dashboard
 * dashboard文件路径：log-analytics-prometheus/grafana/Artifactory-dashboard.json
-<img width="1751" alt="image" src="https://github.com/gyzong1/Uwebinar-Artifactory-Log-Analytics/blob/main/images/Grafana_Dashboard.png"> 
+<img width="1751" alt="image" src="https://github.com/gyzong1/Uwebinar-Artifactory-Log-Analytics/blob/main/images/Artifactory_Download.png"> 
 
 ## 查看数据
 <img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Maven-1.png"> 
