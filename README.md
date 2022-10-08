@@ -41,7 +41,7 @@ User=root
 Group=root
 Environment=JF_PRODUCT_DATA_INTERNAL=/root/webinar/artifactory-pro-7.41.12/var
 ```  
-访问：http://ip:24231/metrics, 查看日志metrics信息
+* 访问：http://ip:24231/metrics, 查看日志metrics信息
 <img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Artifactory_Log_Metrics.png"> 
 
 
@@ -68,7 +68,7 @@ WantedBy=multi-user.target
 
 systemctl start prometheus-server
 ```
-访问：http://ip:9090, 确认 Fluentd 连接正常
+* 访问：http://ip:9090, 确认 Fluentd 连接正常
 <img width="1751" alt="image" src="https://github.com/gyzong1/webinar-Artifactory-Log-Analytics/blob/main/images/Prometheus_Status.png"> 
 
 ## 安装 Grafana
@@ -77,7 +77,7 @@ wget https://dl.grafana.com/enterprise/release/grafana-enterprise-9.2.0~beta1-1.
 yum install -y grafana-9.1.7-1.x86_64.rpm
 systemctl start grafana
 ```
-访问：http://ip:3000
+* 访问：http://ip:3000
 默认用户名/密码：admin/admin
 
 ## 选择数据源
